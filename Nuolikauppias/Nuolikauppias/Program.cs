@@ -24,11 +24,11 @@ namespace Nuolikauppias
 
         class Nuoli
         {
-            public Kärki _nuolenKärki;
+            private Kärki _nuolenKärki;
 
-            public Perä _nuolenPerä;
+            private Perä _nuolenPerä;
 
-            public int _nuolenVarsi;
+            private int _nuolenVarsi;
 
             public Nuoli()
             {
@@ -59,6 +59,27 @@ namespace Nuolikauppias
                 hinta += (0.05f * _nuolenVarsi);
 
                 return hinta;
+            }
+
+            public Kärki GetKärki() => _nuolenKärki;
+
+            public Perä GetPerä() => _nuolenPerä;
+
+            public int GetVarsi() => _nuolenVarsi;
+
+            public void SetKärki(Kärki nuolenKärki)
+            {
+                _nuolenKärki = nuolenKärki;
+            }
+
+            public void SetPerä(Perä nuolenPerä)
+            {
+                _nuolenPerä = nuolenPerä;
+            }
+
+            public void SetVarsi(int nuolenVarsi)
+            {
+                _nuolenVarsi = nuolenVarsi;
             }
         }
 
