@@ -1,0 +1,15 @@
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\bin\Debug\net6.0\Nuolikauppias.exe
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\bin\Debug\net6.0\Nuolikauppias.deps.json
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\bin\Debug\net6.0\Nuolikauppias.runtimeconfig.json
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\bin\Debug\net6.0\Nuolikauppias.dll
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\bin\Debug\net6.0\Nuolikauppias.pdb
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.csproj.AssemblyReference.cache
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.AssemblyInfoInputs.cache
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.AssemblyInfo.cs
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.csproj.CoreCompileInputs.cache
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.dll
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\refint\Nuolikauppias.dll
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.pdb
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\Nuolikauppias.genruntimeconfig.cache
+C:\Olio-ohjelmointi\Nuolikauppias\Nuolikauppias\obj\Debug\net6.0\ref\Nuolikauppias.dll
