@@ -19,68 +19,48 @@ namespace Nuolikauppias
             Nuoli nuoli = new Nuoli(nuolenKärki, nuolenPerä, nuolenPituus);
             float hinta = nuoli.PalautaHinta();
             Console.WriteLine($"Tämän nuolen hinta on {hinta} kultaa.");
-            
+
         }
 
         class Nuoli
         {
-            private Kärki _nuolenKärki;
+            public Kärki NuolenKärki { get; set; }
 
-            private Perä _nuolenPerä;
+            public Perä NuolenPerä { get; set; }
 
-            private int _nuolenVarsi;
+            public int NuolenVarsi { get; set; }
 
             public Nuoli()
             {
-                _nuolenKärki = Kärki.puu;
+                NuolenKärki = Kärki.puu;
 
-                _nuolenPerä = Perä.lehti;
+                NuolenPerä = Perä.lehti;
 
-                _nuolenVarsi = 60;
+                NuolenVarsi = 60;
             }
 
             public Nuoli(Kärki nuolenKärki, Perä nuolenPerä, int nuolenVarsi)
             {
-                _nuolenKärki = nuolenKärki;
-                _nuolenPerä = nuolenPerä;
-                _nuolenVarsi = nuolenVarsi;
+                NuolenKärki = nuolenKärki;
+                NuolenPerä = nuolenPerä;
+                NuolenVarsi = nuolenVarsi;
 
-                if (_nuolenVarsi < 60) _nuolenVarsi = 60;
-                if (_nuolenVarsi > 100) _nuolenVarsi = 100;
+                if (NuolenVarsi < 60) NuolenVarsi = 60;
+                if (NuolenVarsi > 100) NuolenVarsi = 100;
             }
 
             public float PalautaHinta()
             {
                 float hinta = 0;
 
-                hinta += (int) _nuolenKärki;
-                hinta += (int) _nuolenPerä;
+                hinta += (int) NuolenKärki;
+                hinta += (int) NuolenPerä;
 
-                hinta += (0.05f * _nuolenVarsi);
+                hinta += (0.05f * NuolenVarsi);
 
                 return hinta;
             }
 
-            public Kärki GetKärki() => _nuolenKärki;
-
-            public Perä GetPerä() => _nuolenPerä;
-
-            public int GetVarsi() => _nuolenVarsi;
-
-            public void SetKärki(Kärki nuolenKärki)
-            {
-                _nuolenKärki = nuolenKärki;
-            }
-
-            public void SetPerä(Perä nuolenPerä)
-            {
-                _nuolenPerä = nuolenPerä;
-            }
-
-            public void SetVarsi(int nuolenVarsi)
-            {
-                _nuolenVarsi = nuolenVarsi;
-            }
         }
 
         enum Kärki { puu = 3, teräs = 5, timantti = 50 }
